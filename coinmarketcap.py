@@ -36,7 +36,7 @@ class coinmarketcap():
 
 		headers = {
 			'Accepts': 'application/json',
-			'X-CMC_PRO_API_KEY': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+			'X-CMC_PRO_API_KEY': '5f1610ad-e61b-4a3e-8ff8-2c754054039b',
 		}
 
 		session = Session()
