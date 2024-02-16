@@ -21,7 +21,7 @@ def sendMessageTelegram(msg):
 	
 	#We replace %n by %0A for Telegram
 	txt = msg.replace("\n", "%0A")
-	url = "https://api.telegram.org/bot6849124042:AAHRaB_BNDw7yFN2PzBAPKX6aD6ZeN3gwl8/sendMessage?parse_mode=Markdown&chat_id=-123456789&text=" + txt
+	url = "https://api.telegram.org/bot6849124042:AAHRaB_BNDw7yFN2PzBAPKX6aD6ZeN3gwl8/sendMessage?parse_mode=Markdown&chat_id=-1002112984585&text=" + txt
 	urllib3.disable_warnings()
 	http = urllib3.PoolManager()
 	r = http.request('GET', url)
