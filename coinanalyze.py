@@ -159,11 +159,11 @@ def printAlert(strategy, symbol, ema, period, price):
 ######## MAIN #####
 def main():
 	try:
-		print("\n>> CoinAnalyze v0.7 by cloud <<\n\n")
-		sendMessageTelegram("Coin Analyzer Bot v0.7 Started")
+		print("\n>> Infinity Crypto Bot v1.0 by Infinity Markets <<\n\n")
+		sendMessageTelegram("Infinity Crypto  Bot v1.0 Started")
 		
 		##### TRADE MODULE#######
-		trading = 0
+		trading = 1
 		tr = trade()
 		if trading == 1:
 			print("Trading module : On")
