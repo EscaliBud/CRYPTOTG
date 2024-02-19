@@ -159,7 +159,7 @@ class trade():
 		price = coin.getLastPrice()
 		for tr in self.trade:
 			if tr['symbol'] == coin.getSymbol() and tr['type'] == 1:
-				stoploss = tr['stoploss']
+				stoploss = int(tr['stoploss'])
 				
 		if price < stoploss:
 			self.buysell(2, coin.getSymbol(), price)
